@@ -5,7 +5,7 @@ import java.sql.*;
 public class UsersDAO {
     private final String url = "jdbc:mysql://localhost:3306/aliens";
     private final String uName = "root";
-    private final String password = "Brinjal@32";
+    private final String password = "Password@123";
 
     protected Connection getConnection() {
         Connection conn = null;
